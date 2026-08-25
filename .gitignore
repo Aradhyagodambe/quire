@@ -1,0 +1,4 @@
+# Ignore uploaded PDFs and local vector storage
+*.pdf
+storage/
+__pycache__/
