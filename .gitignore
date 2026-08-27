@@ -1,4 +1,37 @@
-# Ignore uploaded PDFs and local vector storage
-*.pdf
-storage/
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+profile_default/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env.local
+
+# Data — don't commit source PDFs; you likely don't hold
+# redistribution rights to research papers, textbooks, etc.
+data/
+*.pdf
+
+# Model / cache artifacts, if this ever runs outside Colab
+*.bin
+*.safetensors
