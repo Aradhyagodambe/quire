@@ -1,0 +1,24 @@
+# Core RAG framework
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-huggingface
+llama-index-postprocessor-sbert-rerank
+
+# Local model loading + quantization
+torch
+transformers
+accelerate
+bitsandbytes
+
+# Embeddings / reranking backend
+sentence-transformers
+
+# PDF extraction
+pymupdf4llm
+
+# NOTE: intentionally unpinned above so you get current versions on a first
+# install. But given the ChatOpenAI ImportError from earlier -- an internal
+# LlamaIndex/LangChain version mismatch, not your code -- once this notebook
+# is working the way you want, run `pip freeze` in that working Colab session
+# and replace this file with exact pinned versions. Unpinned installs are
+# exactly how that bug happened.
