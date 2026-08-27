@@ -43,7 +43,8 @@ A follow-up restricted to one paper:
 
 ## How it works
 
-<img width="1672" height="475" alt="architecture" src="https://github.com/user-attachments/assets/5b825188-d5da-4ed6-9a88-868d09fec9e9" />
+<img width="2912" height="1440" alt="Project_architecture" src="https://github.com/user-attachments/assets/defc0ceb-f6d4-4469-b42d-a4054dc7570a" />
+
 
 
 1. **Extraction** — PDFs are parsed with `pymupdf4llm`, which preserves structure (headings, lists) better than raw text extraction, at the page level
